@@ -9,7 +9,7 @@ import {
  Typography,
  Button
 } from '@material-ui/core';
-import FavoriteIcon from '@material-ui/icons/Favorite';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 
 const ArticleCard =({article})=>{
 

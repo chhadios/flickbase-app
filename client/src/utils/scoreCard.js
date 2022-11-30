@@ -8,9 +8,9 @@ import {
     Divider,
     Chip
 } from '@material-ui/core';
-import MovieIcon from '@material-ui/icons/Movie';
-import PersonIcon from '@material-ui/icons/Person';
-import StarIcon from '@material-ui/icons/Star';
+import MovieIcon from '@mui/icons-material/Movie';
+import PersonIcon from '@mui/icons-material/Person';
+import StarIcon from '@mui/icons-material/Star';
 
 const ScoreCard = ({ current }) => {
 

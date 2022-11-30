@@ -8,7 +8,7 @@ import {
     TextField,
     Divider
 } from '@material-ui/core'
-import EditIcon from '@material-ui/icons/Edit';
+import EditIcon from '@mui/icons-material/Edit';
 const AuthProfile=()=>{
     const [emailModal,setEmailModal]=useState(false);
     const users=useSelector(state=>state.users)

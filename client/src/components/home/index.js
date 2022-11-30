@@ -37,7 +37,8 @@ const [sort,setSort]= useReducer(
         ))
       : null}
       </Grid> 
-      <button 
+      <button
+      style={{backgroundColor:"white",padding:"5px",width:"100px",margin:"10px",borderRadius:"20px"}} 
       onClick={()=>{
         let skip=sort.skip+sort.limit;
         dispatch(getArticles({...sort,skip:skip}));
